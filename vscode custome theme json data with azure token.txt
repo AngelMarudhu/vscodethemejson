@@ -1,0 +1,56 @@
+kzwwjttda7xh5slzhxsb4nqntbpkrmstv5md2z3ahbic27hxe5pq
+
+
+
+   "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#292929",
+    "activityBar.background": "#000000",
+    "activityBar.border": "#212529",
+    "breadcrumb.background": "#000000",
+    "breadcrumb.foreground": "#BBBB00",
+    "sideBar.background": "#000000",
+    "sideBar.border": "#212529",
+    "foreground": "#072ac8",
+    "editor.background": "#000000",
+    "scrollbarSlider.background": "#ff0000",
+    "minimap.background": "#000000",
+    "minimapSlider.activeBackground": "#ff00007f",
+    "minimapSlider.hoverBackground": "#ff00007f",
+    "sideBarSectionHeader.background": "#000000",
+    "terminal.background": "#000000",
+    "terminalCursor.foreground": "#ff0000",
+    "terminal.foreground": "#39ff147f",
+    "editorLineNumber.activeForeground": "#39ff14",
+    "editorLineNumber.foreground": "#ff0000",
+    "menu.separatorBackground": "#000000",
+    "titleBar.activeBackground": "#000000",
+    "statusBar.background": "#000000",
+    "statusBar.border": "#FFD700",
+    "panel.background": "#000000",
+    "tab.activeBackground": "#212529",
+    "tab.inactiveBackground": "#000000",
+    "tab.border": "#000000",
+    "editorSuggestWidget.background": "#000000",
+    "editorSuggestWidget.foreground": "#39ff14",
+    "editorError.foreground": "#ff0000"
+  },
+"editor.tokenColorCustomizations": {
+  "comments": "#FF0000",
+  "variables": "#FF0000",
+  "functions": "#39ff14",// linux terminal color
+  "numbers": "#FF0000",
+  "strings": "#BBBB00", // golden color
+  "keywords": "#39ff14", // for loop return keywords....
+
+  "textMateRules": [
+
+    {
+      "scope" : "string.quoted.single.js",
+      "settings": {
+        "foreground": "#FFD700",
+        "fontStyle": "italic",
+      }
+    }
+  ]
+
+},
