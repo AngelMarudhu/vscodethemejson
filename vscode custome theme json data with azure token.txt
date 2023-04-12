@@ -1,7 +1,6 @@
 kzwwjttda7xh5slzhxsb4nqntbpkrmstv5md2z3ahbic27hxe5pq
 
 
-
    "workbench.colorCustomizations": {
     "activityBar.activeBackground": "#292929",
     "activityBar.background": "#000000",
@@ -32,14 +31,16 @@ kzwwjttda7xh5slzhxsb4nqntbpkrmstv5md2z3ahbic27hxe5pq
     "tab.border": "#000000",
     "editorSuggestWidget.background": "#000000",
     "editorSuggestWidget.foreground": "#39ff14",
-    "editorError.foreground": "#ff0000"
+    "editorError.foreground": "#ff0000",
+    "icon.foreground": "#BBBB00",
+    "quickInput.foreground": "#39ff14",
+    "quickInputList.focusForeground": "#39ff14",
   },
 "editor.tokenColorCustomizations": {
   "comments": "#FF0000",
-  "variables": "#FF0000",
   "functions": "#39ff14",// linux terminal color
   "numbers": "#FF0000",
-  "strings": "#BBBB00", // golden color
+  "strings": "#BBBB00", // linux golden color
   "keywords": "#39ff14", // for loop return keywords....
 
   "textMateRules": [
@@ -47,10 +48,35 @@ kzwwjttda7xh5slzhxsb4nqntbpkrmstv5md2z3ahbic27hxe5pq
     {
       "scope" : "string.quoted.single.js",
       "settings": {
-        "foreground": "#FFD700",
+        "foreground": "#FFD700", // argument color and path color
         "fontStyle": "italic",
       }
+    },
+
+    {
+      "scope" : "variable.other.readwrite.js", 
+      "settings": {
+        "foreground": "#39ff147f", // string varibale name color let name this case name color... and useEffect dependency color...
+        "fontStyle": "italic"
+      }
+    },
+
+    {
+      "scope" : ["variable.parameter.js", "variable.other.constant.js"],
+      "settings": {
+        "foreground": "#FFD700", // parameter color and useState parameter
+        "fontStyle": "italic"
+      }
+    },
+
+    {
+      "scope" : ["storage.type.js", "entity.name.tag"],
+      "settings": {
+        "foreground": "#072ac8", // let const color and html color
+        "fontStyle": "italic"
+      }
     }
+
   ]
 
 },
